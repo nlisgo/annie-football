@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Players</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <h1>All Players</h1>
+    <table id="players-table">
+        <thead>
+            <tr>
+                <th>Image</th>
+                <th onclick="sortTable(1)">Name</th>
+                <th onclick="sortTable(2)">Age</th>
+                <th onclick="sortTable(3)">Played</th>
+                <th onclick="sortTable(4)">Goals</th>
+                <th onclick="sortTable(5)">Assists</th>
+            </tr>
+        </thead>
+        <tbody id="players-list">
+        </tbody>
+    </table>
+    
+    <div id="player-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="player-bio"></div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

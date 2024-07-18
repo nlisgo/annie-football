@@ -1,0 +1,10 @@
+{
+    "name": "Ash",
+    "dob": "1979-04-25",
+    "image": "ash.jpg",
+    "supports": "Liverpool",
+    "bio": "Ash is a dynamic midfielder known for her incredible stamina and passing accuracy.",
+    "played": 42,
+    "goals": 15,
+    "assists": 10
+}

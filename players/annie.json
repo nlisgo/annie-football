@@ -1,0 +1,10 @@
+{
+    "name": "Annie",
+    "dob": "2007-07-13",
+    "image": "annie.jpg",
+    "supports": "Everton",
+    "bio": "Annie is the team captain with a fierce love for Everton and a knack for organizing unforgettable matches!",
+    "played": 37,
+    "goals": 20,
+    "assists": 7
+}
