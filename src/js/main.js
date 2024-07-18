@@ -66,6 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>Played: ${player.played}</p>
             <p>Goals: ${player.goals}</p>
             <p>Assists: ${player.assists}</p>
+            <p>goals per game: ${player.goals / player.played}</p>
         `;
         modal.style.display = "block";
     };
