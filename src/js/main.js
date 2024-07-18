@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const modal = document.getElementById("player-modal");
         document.getElementById("player-bio").innerHTML = `
             <h2>${player.name}</h2>
-            <img src="/images/${player.image}" alt="${player.name}">
+            <img src="images/${player.image}" alt="${player.name}">
             <p>Supports: ${player.supports}</p>
             <p>${player.bio}</p>
             <p>Played: ${player.played}</p>
@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (document.getElementById('featured-player')) {
                 const featuredPlayer = players[Math.floor(Math.random() * players.length)];
                 document.getElementById('featured-player').innerHTML = `
-                    <img src="/images/${featuredPlayer.image}" alt="${featuredPlayer.name}">
+                    <img src="images/${featuredPlayer.image}" alt="${featuredPlayer.name}">
                     <h3>${featuredPlayer.name}</h3>
                     <p>${featuredPlayer.bio}</p>
                 `;
@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 players.forEach(player => {
                     const row = document.createElement('tr');
                     row.innerHTML = `
-                        <td><img src="/images/${player.image}" alt="${player.name}" onclick="openModal('${player.name}')"></td>
+                        <td><img src="images/${player.image}" alt="${player.name}" onclick="openModal('${player.name}')"></td>
                         <td>${player.name}</td>
                         <td>${calculateAge(player.dob)}</td>
                         <td>${player.played}</td>
